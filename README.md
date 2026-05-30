@@ -31,11 +31,8 @@ The goal of this repository is to:
 
 | Project Name | Description | Concepts Used |
 |-------------|-------------|---------------|
-| Calculator | Performs basic arithmetic operations | Methods, Switch Case |
 | Number Guessing Game | User guesses a randomly generated number | Loops, Conditions |
-| Student Management System | Manage student records | OOP, Arrays |
-| ATM Simulation | Simulates ATM operations | Classes, Methods |
-| To-Do List | Task management application | Collections, OOP |
+
 
 *(Update this table as you add more projects.)*
 
