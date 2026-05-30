@@ -5,15 +5,20 @@ public class Student_Marks_Analyser {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         calculations c = new calculations();
+        // asking for the number of students..
         System.out.println("Enter the number of students :");
+        // Taking user input..
         int students = sc.nextInt();
+        // created an array of marks
         int marks[] = new int[students];
         System.out.println("Enter the marks of the students :");
         for (int i = 0; i < marks.length; i++) {
+            // Taking user input for the marks..
             System.out.println("enter the marks of student " + (i + 1) + " ");
             marks[i] = sc.nextInt();
         }
         // report
+        // using method to return or calculate average/highest/lowest
         int average = c.average(marks);
         int highest = c.highest(marks);
         int lowest = c.lowest(marks);
@@ -49,7 +54,6 @@ class calculations {
             }
         }
         return highest;
-
     }
 
     int lowest(int marks[]) {
