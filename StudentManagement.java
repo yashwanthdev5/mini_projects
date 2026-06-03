@@ -40,7 +40,7 @@ public class StudentManagement {
                     while (true) {
                         System.out.println("enter the name of the student :");
                         name = sc.nextLine();
-                        if (name.matches("[a-zA-z ]+")) {
+                        if (name.matches("[a-zA-Z ]+")) {
                             break;
                         }
                         // validation
@@ -103,6 +103,7 @@ public class StudentManagement {
                         if (students[i].getId() == id) {
                             students[i].display();
                             found = true;
+                            break;
                         }
 
                     }
@@ -126,8 +127,9 @@ public class StudentManagement {
                             int value1 = sc.nextInt();
                             switch (value1) {
                                 case 1:
+                                     sc.nextLine();
                                     System.out.println("Enter the name you want to update ");
-                                    String newName = sc.next();
+                                    String newName = sc.nextLine();
                                     students[i].setName(newName);
                                     System.out.println("-----The name is updated Successfully----");
                                     break;
@@ -143,10 +145,11 @@ public class StudentManagement {
                             }
                             found = true;
                         }
-                        if (!found) {
+                       
+                    }
+                     if (!found) {
                             System.out.println("Student with " + id + " is not present!!");
                         }
-                    }
 
                     break;
                 case 5:
@@ -166,10 +169,11 @@ public class StudentManagement {
                             found = true;
                             System.out.println("-----------Deleted Sucessfully--------");
                         }
-                        if (!found) {
+                       
+                    }
+                     if (!found) {
                             System.out.println("Student with " + id + " is not present!!");
                         }
-                    }
 
                     break;
 
