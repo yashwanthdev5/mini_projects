@@ -61,8 +61,9 @@ The goal of this repository is to:
 - [x] Control Statements
 - [x] Loops
 - [x] Arrays
-- [x] OOP (In Progress)
-- [ ] Collections
+- [x] OOP
+- [ ] Strings(In progress)
+- [ ] Collections (In Progress)
 - [ ] JDBC
 - [ ] Advanced Java
 
