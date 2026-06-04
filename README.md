@@ -34,7 +34,7 @@ The goal of this repository is to:
 | Number Guessing Game | User guesses a randomly generated number | Loops, Conditions |
 | Student Marks Analyser | User enters student marks gets report | Arrays, Methods |
 |Student management System | user can add,display,update,delete,search|Arrays,OOPs|
-
+|Bank Management System | user can create,deposit,withdraw,check balance|Arrays,OOPs,Exception Handling|
 
 *(Update this table as you add more projects.)*
 
