@@ -33,6 +33,7 @@ The goal of this repository is to:
 |-------------|-------------|---------------|
 | Number Guessing Game | User guesses a randomly generated number | Loops, Conditions |
 | Student Marks Analyser | User enters student marks gets report | Arrays, Methods |
+|Student management System | user can add,display,update,delete,search|Arrays,OOPs|
 
 
 *(Update this table as you add more projects.)*
@@ -60,7 +61,7 @@ The goal of this repository is to:
 - [x] Control Statements
 - [x] Loops
 - [x] Arrays
-- [ ] OOP (In Progress)
+- [x] OOP (In Progress)
 - [ ] Collections
 - [ ] JDBC
 - [ ] Advanced Java
@@ -69,7 +70,7 @@ The goal of this repository is to:
 
 ## 🔮 Future Projects
 
-- Library Management System
+- Student Management System
 - Banking System
 - Quiz Application
 - Expense Tracker
